@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+header {
+    background-color: rgb(172,157,184);
+    padding: 0 10px;
+    margin-top: 0%;
+    overflow: hidden;
+    height: 70px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    /* top: 0;
+    left: 0; */
+}
+
+
+ .header-left li {
+    list-style: none;
+    float: left;
+    font-family: "neue-haas-grotesk-display";
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header-left ul {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    display: inline-block;
+    align-items: center;
+}
+
+.header-left {
+    height: 40px;
+    width: 352.px;
+    display: inline-block;
+    float: left;
+    /* align-items: center; */
+    margin-left: 2%;
+}
+
+.menu-item{
+    line-height: 24px;  
+    padding-left: 11.2px;
+    padding-right: 11.2px;
+    margin-top: 6%;
+}
+
+.nav-btn {
+    font-size: 18px;
+    background-color: #0f1d28;
+    color: #ac9eb8;
+    line-height: 18px;
+    height: 40px;
+    width: 95.5547px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+} 
+
+.nav-subscribe {
+     line-height: 24px;
+     padding-left: 11.2px;
+     margin-top: 6%;
+}
+
+.album-promo {
+   line-height: 24px;
+   padding-left: 11.2px;
+   margin-top: 6%;
+}
+
+.header-middle img{
+    height: 38.7px;
+    width: 180px;
+}
+
+.header-middle {
+    width: 271.48px;
+    height: 38.7px;
+    margin-top : 15px;
+    margin-left: 230px;
+    display: inline-block;
+    float: left;
+}
+
+.header-right li {
+    float: left;
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.header-right {
+    display: inline-block;
+    float: right;
+    margin-right: 29.836px;
+}
+
+.header-right ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+
+.video-midnights {
+    margin-top: 70px;
+    height: 100%;
+    width: 100%;
+    transform: scale(1.02);
+}
+
+.album {
+    height: 100%;
+    width: 100%;
+}
+
+.tour {
+    height: 100%;
+    width: 100%;
+}
+
+.video-slick-container {
+    text-align: center;
+}
+
+
+.album-video {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+
+
+.collection-shop {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.exclusive-midnights{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.sign-up-cover {
+    background: url("//cache.umusic.com/_sites/_halo/flnc/akts/wpdnmg.jpg");
+    height: 540px;
+}
+
+.veiw-content h2{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "neue-haas-grotesk-display";
+    color: #e8e9e3;
+    padding-top: 120px;
+    letter-spacing: 4.4px;
+}
+
+.email-form {
+    background-color: transparent;
+    line-height: 1;
+    border: 0;
+    border-bottom: 2px solid #e8e9e3;
+    height: 30px;
+    font-size: 18px;
+    outline: none;
+    color: #e8e9e3;
+    width: 430px;
+    padding: 1px 2px;
+    margin-left: 315px;
+
+}
+
+::placeholder {
+    color: #e8e9e3;
+}
+
+.country-form {
+    background-color: transparent; 
+    line-height: 1;
+    border: 0;
+    border-bottom: 2px solid #e8e9e3;
+    height: 30px;
+    font-size: 18px;
+    outline: none;
+    color: #e8e9e3;
+    width: 430px;
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+}
+
+.privacy-policy {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #e8e9e3;
+}
+
+.submit-buton {
+   width: 180px;
+   height: 50px;
+   background-color: #e8e9e3;
+   color: #0f1d28;
+   border: none;
+   font-weight: 600;
+   font-size: 20px;
+   margin-left: 650px;
+}
+
+.submit-buton:hover {
+    background-color: #ac9eb8;
+}
+
+footer{
+    background-color: #ac9eb8;
+    width: 100%;
+    height: 121px;
+}
+
+.footer-top ul {
+    margin: 0;
+
+}
+
+.footer-top li {
+    list-style: none;
+    float: left;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.footer-top {
+    display: inline-block;
+}
+
+.facebook-bootom {
+    margin-left: 520px;
+}
+
+.bottom-policy {
+    text-align: center;
+    font-size: 16px;
+    color: #0f1d28;
+
+}
